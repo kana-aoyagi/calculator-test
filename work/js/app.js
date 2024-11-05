@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   equals.addEventListener("click", function () {
     display.value = eval(display.value);
   });
-  //clearボタンにクリックイベントを追加。クリックされたときにdisplayをクリア（空にする）する処理
+  //clearボタンにクリックイベントを追加し、クリックされたときにdisplayをクリア（空にする）する処理
   clear.addEventListener("click", function () {
     display.value = "";
   });
